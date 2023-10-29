@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>
-      <div className="h-auto bg-gradient-to-r from-cyan-500 to-purple-500">
+      <div className="h-screen bg-gradient-to-r from-cyan-500 to-purple-500">
         <TaskForm addTask={addTask} />
         <TaskList
           tasks={tasks}
